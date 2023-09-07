@@ -2,7 +2,7 @@ import { argv } from 'node:process';
 import chalk from 'chalk';
 import randomColor from 'randomcolor';
 
-let colorFrame = randomColor({ hue: argv[2], luminosity: argv[3] });
+const colorFrame = randomColor({ hue: argv[2], luminosity: argv[3] });
 
 const hash = '#';
 const space = ' ';
